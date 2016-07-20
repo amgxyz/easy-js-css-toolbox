@@ -1,0 +1,107 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+.spin360 {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin360:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.shimmy {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.shimmy:hover {
+	-webkit-transform: translate(0px,10px);
+	-moz-transform: translate(0px,-10px);
+	-ms-transform: translate(0px,-10px);
+	-o-transform: translate(0px,10px);
+	transform: translate(0px,-10px);
+}
+
+.slide-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-right:hover {
+	-webkit-transform: translate(75px,0px);
+	-moz-transform: translate(75px,0px);
+	-ms-transform: translate(75px,0px);
+	-o-transform: translate(75px,0px);
+	transform: translate(75px,0px);
+}
+
+.slide-up {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-up:hover {
+	-webkit-transform: translate(0px,-50px);
+	-moz-transform: translate(0px,-50px);
+	-ms-transform: translate(0px,-50px);
+	-o-transform: translate(0px,-50px);
+	transform: translate(0px,-50px);
+}
+
+.slide-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-left:hover {
+	-webkit-transform: translate(-75px,0px);
+	-moz-transform: translate(-75px,0px);
+	-ms-transform: translate(-75px,0px);
+	-o-transform: translate(-75px,0px);
+	transform: translate(-75px,0px);
+}
+
+.skew {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.skew:hover {
+	-webkit-transform: skew(30deg,20deg);
+	-moz-transform: skew(30deg,20deg);
+	-ms-transform: skew(30deg,20deg);
+	-o-transform: skew(30deg,20deg);
+	transform: skew(30deg,20deg);
+}

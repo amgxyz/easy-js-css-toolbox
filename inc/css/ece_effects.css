@@ -1,0 +1,242 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+.spin90-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin90-right:hover {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.spin180-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin180-right:hover {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.spin540-right{
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin540-right:hover {
+	-webkit-transform: rotate(540deg);
+	-moz-transform: rotate(540deg);
+	-ms-transform: rotate(540deg);
+	-o-transform: rotate(540deg);
+	transform: rotate(540deg);
+}
+.spin900-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin900-right:hover {
+	-webkit-transform: rotate(900deg);
+	-moz-transform: rotate(900deg);
+	-ms-transform: rotate(900deg);
+	-o-transform: rotate(900deg);
+	transform: rotate(900deg);
+}
+
+.spin360-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin360-right:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+.spin90-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin90-left:hover {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.spin180-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin180-left:hover {
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.spin540-left{
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin540-left:hover {
+	-webkit-transform: rotate(-540deg);
+	-moz-transform: rotate(-540deg);
+	-ms-transform: rotate(-540deg);
+	-o-transform: rotate(-540deg);
+	transform: rotate(-540deg);
+}
+.spin900-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin900-left:hover {
+	-webkit-transform: rotate(-900deg);
+	-moz-transform: rotate(-900deg);
+	-ms-transform: rotate(-900deg);
+	-o-transform: rotate(-900deg);
+	transform: rotate(-900deg);
+}
+
+.spin360-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.spin360-left:hover {
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+}
+
+.shimmy {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.shimmy:hover {
+	-webkit-transform: translate(0px,10px);
+	-moz-transform: translate(0px,-10px);
+	-ms-transform: translate(0px,-10px);
+	-o-transform: translate(0px,10px);
+	transform: translate(0px,-10px);
+}
+
+.slide-right {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-right:hover {
+	-webkit-transform: translate(75px,0px);
+	-moz-transform: translate(75px,0px);
+	-ms-transform: translate(75px,0px);
+	-o-transform: translate(75px,0px);
+	transform: translate(75px,0px);
+}
+
+.slide-up {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-up:hover {
+	-webkit-transform: translate(0px,-50px);
+	-moz-transform: translate(0px,-50px);
+	-ms-transform: translate(0px,-50px);
+	-o-transform: translate(0px,-50px);
+	transform: translate(0px,-50px);
+}
+
+.slide-left {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.slide-left:hover {
+	-webkit-transform: translate(-75px,0px);
+	-moz-transform: translate(-75px,0px);
+	-ms-transform: translate(-75px,0px);
+	-o-transform: translate(-75px,0px);
+	transform: translate(-75px,0px);
+}
+
+.skew {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.skew:hover {
+	-webkit-transform: skew(30deg,20deg);
+	-moz-transform: skew(30deg,20deg);
+	-ms-transform: skew(30deg,20deg);
+	-o-transform: skew(30deg,20deg);
+	transform: skew(30deg,20deg);
+}
